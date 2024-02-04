@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.imp {
+  font-family: 'Space Grotesk', sans-serif;
+  width: 100%;
+  height: 100vh;
+  
+}
+.imp div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px;
+}
+
+tr th {
+  padding: 5px;
+}
+tr td {
+  padding: 5px;
+}
+.back {
+  width: 150px;
+  height: 35px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:darkgray;
+  opacity: 0.8;
+  z-index: 0;
+}
+.modal-window {
+  position: relative;
+  z-index: 2;
+  width: 450px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: right;
+}
+.inp {
+  height: 25px;
+  font-size: 18px;
+  margin: 8px 3px;
+  padding-left: 6px;
+}
+.lb {
+  padding-left: 10px;
+  display: inline-block;
+}
+.bbttnn {
+  display: flex;
+  justify-content: flex-end;
+}
+.btnBotom {
+  margin: 5px;
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+}

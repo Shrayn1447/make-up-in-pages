@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&family=Oswald:wght@400;600&family=Poppins:wght@400;500;600;700&family=Sigmar&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none; 
+}
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 695px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.ri {
+    background: no-repeat url(./background.png);
+    width: 50%;
+    height: 695px;
+
+}
+
+.ri ul {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+}
+
+.ri ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+.ri ul li a:hover {
+    border: solid 1px white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.logo {
+    padding-top: 55px;
+    margin-left: 110px;
+}
+
+.left .text h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height:50px;
+}
+.left{
+    width: 50%;
+    height: 695px;
+}
+
+.text {
+    width: 400px;
+    height: 170px;
+    padding-top: 110px;
+    margin-left: 110px;
+}
+.pad1{
+   font-size: 20px;
+   padding-top: 40px;
+}
+.pad1 p{
+    padding-bottom: 20px;
+    color: black;
+    margin-bottom: 55px;
+    margin-left: 110px;
+}
+.pad1 a{
+    margin-top: 55px;
+    background-color: #68B738;
+    color: white;
+    margin-left: 110px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 26px;
+    gap: 4px;
+
+}
+.corm{
+    position: absolute;
+    margin: 140px 0 0 600px;
+}

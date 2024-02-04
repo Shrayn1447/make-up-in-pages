@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto:wght@100&display=swap');
+* ,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: "Rethink Sans", sans-serif;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.wraper--header {
+    margin: 0 auto;
+    max-width: 1295px;
+    padding: 0 72px;
+}
+
+/* HEADER */
+.header {
+    max-width: 100%;
+    padding: 0 72px;
+    background: rgb(36,27,0);
+    background: linear-gradient(90deg, rgba(36,27,0,0) 40%, rgba(24,24,35,1) 40%);
+}
+
+.wrapper__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo {
+    height: 24px;
+}
+.nav__menu {
+    display: flex;
+}
+.nav__item {
+    padding: 32px 24px;
+    cursor: pointer;
+    transition: background .2s;
+}
+.nav__item:hover {
+    background: #5221E6;
+}
+/* ////////////////////// */
+
+
+/* SEACTION 1 ROBIN */
+.robin {
+    position: relative;
+    padding: 80px 40px 80px 0px;
+    background: rgb(36,27,0);
+    background: linear-gradient(90deg, rgba(36,27,0,0) 40%, rgba(24,24,35,1) 40%);
+}
+.wrapper--flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.title {
+    z-index: 20;
+    right: 0;
+    max-width: 720px;
+    transform: translateX(-15%);
+}
+.title__text {
+    font-size: 78px;
+    font-weight: 700;
+}
+.title__paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* ////////////////////// */
+
+
+/* SEACTION 2 ROBIN */
+
+.work {
+    margin: 120px 0px;
+}
+.section__cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.card__number {
+    color: #8491A0;
+    font-size: 117px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title-text {
+    max-width: 690px;
+    font-size: 55px;
+    font-weight: 700;
+}
+.card__title {
+font-size: 24px;
+font-weight: 700;
+line-height: 150%;
+
+}
+.card__details {
+    max-width: 368px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #8491A0;
+}
+.card__color--blue {
+    color: #609BFF;
+}
+.card__color--green {
+    color: #3CC74E;
+}
+.card__color--pink {
+    color: #E95D90;
+}
+.philosophy {
+    background:#FFF3E4;
+    color: black;
+}
+.philosophy__content {
+    margin: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.philosophy__title {
+    font-size: 55px;
+    font-weight: 700;
+}
+.philosophy__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 576px;
+    color: #5B6876;
+
+}
+.wrapper--between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SKILLSET SECTION */
+.skillset {
+    color:white;
+    margin: 120px 0px;
+}
+.skillset__text {
+    width: 368px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color:#8491A0
+}
+.skillset__text-card {
+    width: 368px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color:#8491A0
+}
+.main-card__title {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.skillset-grid {
+    display: grid;
+    gap: 48px 24px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.skillset__title {
+    font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+margin: 24px 0px 12px ;
+}

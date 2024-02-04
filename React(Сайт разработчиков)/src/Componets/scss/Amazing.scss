@@ -1,0 +1,57 @@
+.mainn {
+  margin-top: 200px;
+  padding: 123px 260px;
+  background-color: #031333;
+  h6 {
+    color: #f54c1e;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 20px */
+    letter-spacing: 4.2px;
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 67.2px */
+  }
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    .carter {
+      h1 {
+        position: absolute;
+        padding-top: 370px;
+        z-index: 2000;
+        color: #fff;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 42px */
+        padding-right: 150px;
+      }
+      p {
+        position: absolute;
+        z-index: 2000;
+        padding-top: 432px;
+        width: 388px;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+
+      }
+      width: 514px;
+      .back {
+        position: absolute;
+        z-index: 1000;
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+@import "/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&family=Poppins:wght@400;500;600;700&family=Sigmar&display=swap');
+*{
+font-family: 'League Spartan', sans-serif;
+font-weight: 300;
+}
+
+header{
+  background-color: #F8F8F8;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  padding: 0;
+  height: 100vh;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+}
+.more{
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 104px;
+  color: #161515;
+}
+.what{
+  font-size: 250px;
+  font-weight: 300;
+  color: #272727;
+}
+.pere{
+  box-sizing: border-box;
+  width: 575px;
+  font-size: 32px;
+  color: #161515;
+}
+.button{
+  background-color: #161515;
+  font-size: 32px;
+ padding: 25px 75px;
+ color: white;
+ margin-top: 30px;
+}
+
+.price{
+  background-color: white;
+  font-size: 32px;
+  padding: 25px 75px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 0;
+  
+}
+.bro{
+  display: flex;
+}
+.popular{
+  font-size: 24px;
+  margin-top: 43px;
+  margin-bottom: 0;
+  margin-left: 25%;
+}
+.models{
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.wotch{
+  width: 415px;
+  height: 630px;
+  background-color: #F8F8F8;
+}
+
+.wotch03{
+  padding: 110px 60px;
+}
+.permo{
+  text-align: center;
+  font-size: 32px;
+  font-weight:400;
+  margin-top: 65px;
+}
+.pro{
+  font-weight: 300;
+  font-size: 32px;
+}
+.text{
+  height: 200px;
+  width: 530px;
+}
+
+
+
+/*whitch 2*/
+
+.wotch2{
+  width: 500px;
+  height: 630px;
+  background-color: #F8F8F8;
+  margin-top: 85px;
+}
+
+.wotch02{
+  height: 500px;
+  width: 500px;
+  margin: 65px 0;
+}
+.perm2{
+  text-align: center;
+  font-size: 32px;
+  font-weight:400;
+  margin-top: 65px;
+}
+.pro2{
+  font-weight: 300;
+  font-size: 32px;
+}
+.text2{
+  height: 200px;
+  width: 530px;
+}
+.pro3{
+  font-weight: 300;
+  font-size: 24px;
+  padding-bottom: 145px;
+}
+.text3{
+  width: 515px;
+  height: 230px;
+}
+.link-0001{
+  color: #BB8B5D;
+  border: solid 1px #BB8B5D;
+  border-top: 2px;
+  border-left: 2px;
+  border-right: 2px;
+}

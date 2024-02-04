@@ -1,0 +1,51 @@
+.maincart h4 {
+  color: #f54c1e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 20px */
+  letter-spacing: 4.2px;
+  text-align: center;
+}
+.maincart h1 {
+  color: #031333;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 53.2px */
+  text-align: center;
+}
+.maincart .diva {
+  padding: 86px 50px 130px;
+  display: flex;
+  justify-content: space-around;
+}
+.maincart .diva div .mama h1 {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 140%; /* 42px */
+  color: #fff;
+  padding-top: 300px;
+  padding-left: 30px;
+}
+.maincart .diva div .mama p {
+  width: 291px;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  color: #fff;
+  padding-top: 350px;
+  padding-left: 30px;
+}
+.maincart .diva div .backorg {
+  position: absolute;
+  width: 370px;
+  height: 464px;
+}
+.maincart .diva div img {
+  width: 370px;
+  height: 464px;
+}/*# sourceMappingURL=Latest.css.map */
