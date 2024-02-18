@@ -102,10 +102,7 @@ input[name="r"] {
 }
 .slide {
   width: 25%;
-}
-.slide img {
-  height: 100%;
-  width: 100%;
+  margin: 0 auto;
 }
 #r1:checked ~ .s1 {
   margin-left: 0;
@@ -125,8 +122,9 @@ input[name="r"] {
 /* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px,30%));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin: 20px;
+  gap: auto;
 }
 .card-img {
     max-width: 400px;
@@ -167,7 +165,11 @@ input[name="r"] {
 }
 .grid1 {
   margin-bottom: 70px;
-  min-width: 400px;
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .section {
   display: flex;
